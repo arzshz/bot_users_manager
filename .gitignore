@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.pytest_cache/
+.DS_Store
+*.egg-info/
+src/setting/.env
+data/
+logs/
+*.log
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# dev-only files, never uploaded to the server
+.pre-commit-config.yaml
+tests/
+requirements-dev.txt
+deploy/
